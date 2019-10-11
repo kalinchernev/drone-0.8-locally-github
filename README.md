@@ -6,7 +6,7 @@ Facilitates your local development workflows with Drone CI pipelines using Githu
 
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
-- [Github Application](https://docs.drone.io/intro/github/single-machine/)
+- [Github Application](https://docs.drone.io/installation/providers/github/)
 - [ngrok](https://ngrok.com/)
 
 ## Setup
@@ -27,7 +27,7 @@ This is necessary in order to enable integration between locally-run Drone serve
 
 ### Create Oauth2 application
 
-[Follow the tutorial](https://docs.drone.io/intro/github/single-machine/#create-an-oauth-application) about creating an application, name is not important, but [`/authorize` callback is](https://0-8-0.docs.drone.io/install-for-github/).
+[Follow the tutorial](https://docs.drone.io/installation/providers/github/) about creating an application, name is not important, but [`/authorize` callback is](https://0-8-0.docs.drone.io/install-for-github/).
 
 When the application is created, save the values of `Application ID` and `Secret`.
 
