@@ -1,5 +1,7 @@
 # Drone automation
 
+[Drone 0.8 documentation](https://0-8-0.docs.drone.io)
+
 Facilitates your local development workflows with Drone CI pipelines using Github client.
 
 ## Requirements
