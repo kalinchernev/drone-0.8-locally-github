@@ -58,9 +58,9 @@ This activation is necessary for you to be able to configure the secrets and mak
 
 ## Changing `DRONE_HOST`
 
-An ngrok session is limited to a duration of 8 hours. When a session is restarted a new `DRONE_HOST` will be issued.
+An ngrok session is limited to a duration of 8 hours. When a session is restarted a new `DRONE_HOST` needs to be used.
 
-Apply the following:
+Do the following:
 
 - stop running Drone services
 - update value in `.env`
