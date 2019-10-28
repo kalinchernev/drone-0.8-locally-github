@@ -56,6 +56,18 @@ When authorized, [activate the project](https://0-8-0.docs.drone.io/getting-star
 
 This activation is necessary for you to be able to configure the secrets and make use of the hooks attached for changes to trigger builds in the Drone automation system.
 
+## Changing `DRONE_HOST`
+
+An ngrok session is limited to a duration of 8 hours. When a session is restarted a new `DRONE_HOST` will be issued.
+
+Apply the following:
+
+- stop running Drone services
+- update value in `.env`
+- [update OAuth application](https://github.com/settings/developers)
+- start Drone services
+- toggle project's access to drone, i.e. `http://new-address.ngrok.io/account/repos`
+
 ## Troubleshooting
 
 [check-config.sh](https://github.com/moby/moby/blob/master/contrib/check-config.sh) script might help.
